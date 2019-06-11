@@ -24,6 +24,16 @@ Un composant:
 
 Une sémantique modélise un système qui présente une interface.
 
+Pour modéliser un composant qui n'utilise pas d'interface (il y a bien
+un composant de départ...) on peut utiliser une interface vide.
+
+Pip sera un composant. Il faudra réussir à exprimer l'API de Pip dans
+une interface et l'état de la mémoire dans l'état du composant.
+
+=> /!\ Comment mettre en relation interface et état ?
+	   En effet, le comportement d'un appel système dépend directement
+	   de l'état du système.
+
 ## Specification
 
 Une spécification exprime
