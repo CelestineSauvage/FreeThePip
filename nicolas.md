@@ -40,3 +40,10 @@ Une spécification exprime
 - le changement opéré
 - les pré-conditions
 - les post-conditions
+
+## Questions
+
+- Chaque composant a un état. Lorsque l'on réfléchit sur Pip et/ou
+  une architecture utilisant Pip, on rélféchit sur un état global
+  (l'état de la mémoire). Comment mettre en relation les états
+  des différents composants avec l'état global du système?
